@@ -2,7 +2,7 @@ FROM bigboards/base-__arch__:14.04
 
 MAINTAINER bigboards (hello@bigboards.io)
 
-ENV OPENLDAP_VERSION 2.4.40
+ENV OPENLDAP_VERSION 2.4.31
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
